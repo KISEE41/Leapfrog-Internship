@@ -1,0 +1,48 @@
+.example-block,
+.content-block {
+	border: 1px solid rgba(107, 117, 125, 0.3);
+	border-radius: 5px;
+	margin-right: 3.5rem;
+	width: 35rem;
+}
+
+.example-block > div {
+	border-bottom: 1px solid rgba(107, 117, 125, 0.3);
+	font-size: 2rem;
+	padding: 1rem;
+}
+
+.example-block > div:last-child {
+	content: "";
+	border-bottom: none;
+}
+
+.active {
+	background-color: var(--color-primary);
+	border-radius: 3px;
+	color: white !important;
+}
+
+.content-block {
+	width: 40rem;
+}
+
+.content-block > div {
+	border-bottom: 1px solid rgba(107, 117, 125, 0.3);
+	font-size: 1.5rem;
+	padding: 1.5rem;
+}
+
+p.float-right {
+	font-size: 1rem;
+	padding: 8px 0 0 0;
+}
+
+.color-faded {
+	color: rgba(107, 117, 125, 0.7);
+}
+
+.content-block > div:last-child {
+	content: "";
+	border-bottom: none;
+}

@@ -1,0 +1,85 @@
+.colors-container:first-child {
+	content: "";
+	margin-top: 5rem;
+}
+
+.colors-container {
+	margin: 3rem 0;
+}
+
+.card {
+	margin: 2.5rem 2.5rem 0 0;
+}
+
+.color-card {
+	border-radius: 5px;
+	height: 8rem;
+	margin-bottom: 1rem;
+	width: 18rem;
+}
+
+.color-title {
+	font-size: 1.7rem;
+	font-weight: 500;
+}
+
+.color-code {
+	font-size: 1.2rem;
+	color: var(--color-gray-600);
+}
+
+.bg-primary {
+	background-color: var(--color-primary);
+}
+
+.bg-primary-dark {
+	background-color: var(--color-primary-dark);
+}
+
+.bg-primary-light {
+	background-color: var(--color-primary-light);
+}
+
+.bg-secondary {
+	background-color: var(--color-secondary);
+}
+
+.bg-secondary-dark {
+	background-color: var(--color-secondary-dark);
+}
+
+.bg-secondary-light {
+	background-color: var(--color-primary-light);
+}
+
+.bg-success {
+	background-color: var(--color-success);
+}
+
+.bg-danger {
+	background-color: var(--color-danger);
+}
+
+.bg-warning {
+	background-color: var(--color-warning);
+}
+
+.bg-info {
+	background-color: var(--color-info);
+}
+
+.bg-gray-600 {
+	background-color: var(--color-gray-600);
+}
+
+.bg-gray-700 {
+	background-color: var(--color-gray-700);
+}
+
+.bg-gray-800 {
+	background-color: var(--color-gray-800);
+}
+
+.bg-gray-900 {
+	background-color: var(--color-gray-900);
+}

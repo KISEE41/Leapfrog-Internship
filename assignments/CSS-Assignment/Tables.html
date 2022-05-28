@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+		/>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- External css -->
+		<link rel="stylesheet" type="text/css" href="./assets/css/base.css" />
+		<link rel="stylesheet" type="text/css" href="./assets/css/header.css" />
+		<link rel="stylesheet" type="text/css" href="./assets/css/table.css" />
+
+		<title>CSS Assignment - table page</title>
+	</head>
+	<body style="margin-bottom: 30rem">
+		<header>
+			<div class="container clearfix">
+				<div class="logo float-left"><h1>UI KIT</h1></div>
+				<nav class="float-left">
+					<ul>
+						<li class="float-left">
+							<a href="./Color.html">Color</a>
+						</li>
+						<li class="float-left">
+							<a href="./Typography.html">Typography</a>
+						</li>
+						<li class="float-left">
+							<a href="./Buttons.html">Buttons</a>
+						</li>
+						<li class="float-left">
+							<a href="./Form.html">Forms</a>
+						</li>
+						<li class="float-left">
+							<a href="./ListGroup.html">List Group</a>
+						</li>
+						<li class="float-left">
+							<a href="./Tables.html">Table</a>
+						</li>
+						<li class="float-left">
+							<a href="./Card.html">Card</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="float-right">
+					<div class="search-container">
+						<input
+							type="text"
+							placeholder="Search"
+							name="search-name"
+						/>
+						<button>Search</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<h1 class="primary-heading border-bottom heading-pad">
+					Tables
+				</h1>
+				<table>
+					<thead>
+						<tr>
+							<th><b>#</b></th>
+							<th><b>First</b></th>
+							<th><b>Last</b></th>
+							<th><b>Handle</b></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><b>1</b></td>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>@mdo</td>
+						</tr>
+						<tr>
+							<td><b>2</b></td>
+							<td>Jacob</td>
+							<td>Thornton</td>
+							<td>@fat</td>
+						</tr>
+						<tr>
+							<td><b>3</b></td>
+							<td>Larry</td>
+							<td>the Bird</td>
+							<td>@twitter</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="clearfix">
+					<div class="float-right">
+						<div class="pagination">
+							<div class="inline-block">Prev</div>
+							<div class="inline-block">1</div>
+							<div class="inline-block">2</div>
+							<div class="inline-block">3</div>
+							<div class="inline-block">Next</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

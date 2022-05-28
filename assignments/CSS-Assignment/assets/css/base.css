@@ -1,0 +1,109 @@
+:root {
+	/* For colors*/
+	/* Primary Colors */
+	--color-primary: #7749f8;
+	--color-primary-dark: #5227cc;
+	--color-primary-light: #ebe5fc;
+
+	/* Secondary Colors */
+	--color-secondary: #717376;
+	--color-secondary-dark: #54595e;
+	--color-secondary-light: #abb5be;
+
+	/* Status Colors */
+	--color-success: #28a745;
+	--color-danger: #dc3545;
+	--color-warning: #ffc107;
+	--color-info: #17a2bb;
+
+	/* Gray Colors */
+	--color-gray-600: #6b757d;
+	--color-gray-700: #495057;
+	--color-gray-800: #343a40;
+	--color-gray-900: #212529;
+
+	/* Widths */
+	--container-width: 80%;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%; /*1rem=10px; 10/16=62.5%*/
+}
+
+body {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	line-height: 1.7;
+	margin-bottom: 10rem;
+}
+
+header {
+	background-color: rgba(235, 229, 252, 0.4);
+	height: 10rem;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: var(--container-width);
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+h1.primary-heading {
+	font-size: 4rem;
+	font-weight: 600;
+}
+
+h2.heading-secondary {
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+.border-bottom {
+	border-bottom: 2px solid rgba(107, 117, 125, 0.3);
+}
+
+.primary-heading.heading-pad {
+	padding: 3rem 0;
+}
+
+.heading-secondary.heading-pad {
+	padding: 2rem 0;
+}
+
+.width-50 {
+	width: 50%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.box-shadow {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

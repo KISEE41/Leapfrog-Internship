@@ -1,0 +1,48 @@
+.mg-t-b {
+	margin: 5rem 0;
+}
+
+.pad-right {
+	padding-right: 10rem;
+}
+
+p {
+	color: var(--color-secondary);
+}
+
+aside > .heading-secondary + p,
+aside > .heading-secondary + * {
+	font-size: 1.8rem;
+	padding: 1rem 0;
+}
+
+.heading-secondary + div > p {
+	padding: 0.5rem 0;
+}
+
+.heading-secondary + p {
+	font-size: 2.1rem;
+	margin: 1.5rem 0 3rem 0;
+}
+
+.tabs {
+	padding: 3rem 0 0 0;
+}
+
+.tabs > * {
+	border: 1px solid rgba(107, 117, 125, 0.3);
+	border-radius: 5px;
+	font-size: 1.7rem;
+	margin: 2rem -2px 0 -2px;
+	padding: 0.8rem 2.5rem;
+}
+
+.tabs + .width-50 {
+	border-top: 1px solid rgba(107, 117, 125, 0.3);
+	font-size: 2rem;
+	padding: 4rem 0;
+}
+
+.tabs > * > a:focus {
+	color: var(--color-secondary);
+}

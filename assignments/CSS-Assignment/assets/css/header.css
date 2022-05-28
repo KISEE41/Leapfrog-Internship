@@ -1,0 +1,44 @@
+.logo {
+	font-size: 1.2rem;
+	margin-right: 3rem;
+	padding: 3rem 0;
+}
+
+nav > ul {
+	padding: 1.9rem 0;
+}
+
+ul > li {
+	list-style: none;
+	margin: 1rem 0.8rem;
+	padding: 1.2rem;
+}
+
+ul > li > a {
+	color: inherit;
+	font-size: 1.4rem;
+	color: var(--color-gray-600);
+	text-decoration: none;
+}
+
+.search-container {
+	padding: 3rem 0;
+}
+
+.search-container > input {
+	border: 2px solid var(--color-gray-600);
+	border-radius: 5px;
+	color: var(--color-gray-600);
+	height: 3.7rem;
+	opacity: 0.8;
+	padding: 1rem;
+}
+
+.search-container > button {
+	background-color: transparent;
+	border: 2px solid var(--color-success);
+	border-radius: 5px;
+	color: var(--color-success);
+	cursor: pointer;
+	padding: 0.9rem;
+}

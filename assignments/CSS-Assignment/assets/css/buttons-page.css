@@ -1,0 +1,11 @@
+.btn-primary > h2,
+.btn-secondary > h2 {
+	margin-top: 3rem;
+}
+
+table {
+	color: var(--color-gray-600);
+	font-size: 1.5rem;
+	margin: 2rem 0;
+	color: white;
+}

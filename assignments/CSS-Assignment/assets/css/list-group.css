@@ -25,6 +25,7 @@
 
 .content-block {
 	width: 40rem;
+	margin-right: 0 !important;
 }
 
 .content-block > div {

@@ -1,0 +1,97 @@
+.header-section {
+	height: 11.4rem;
+	padding: 4rem 3.2rem;
+}
+
+.logo > a {
+	font-size: 3rem;
+}
+
+.logo > a > span {
+	color: var(--color-purple);
+}
+
+nav > ul > li {
+	display: inline-block;
+	font-size: 1.6rem;
+}
+
+nav > ul > li:not(:last-child) {
+	margin-right: 4.8rem;
+}
+
+.first-section-text {
+	margin: 7rem 0;
+	max-width: 50rem;
+}
+
+.first-section-text .button-section {
+	margin-top: 4.8rem;
+}
+
+.first-section-text .button-section > .btn {
+	margin-right: 1.2rem;
+}
+
+.second-section > .row > div,
+.second-section > .row > h2 {
+	text-align: center;
+}
+
+.image-container {
+	margin-top: 4rem;
+}
+
+.third-section {
+	background-color: #f8f8f8;
+	padding: 7.2rem 0;
+}
+
+.third-section__text {
+	width: 56rem;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.third-section .thumbnails {
+	margin-top: 4rem;
+}
+
+.third-section > .button-section {
+	margin: 7.2rem;
+	text-align: center;
+}
+
+footer {
+	background-color: var(--color-footer);
+	color: white;
+}
+
+footer > .footer-text {
+	padding: 7.2rem 0;
+}
+
+footer > .copyright {
+	background-color: #23222f;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+	padding: 1.9rem 0;
+	height: 5.6rem;
+}
+
+h4.footer-text {
+	font-weight: 600;
+	font-size: 1.8rem;
+	line-height: 1.98rem;
+}
+
+footer .info > div {
+	float: left;
+	margin-right: 8.3rem;
+}
+
+footer .info > div:after {
+	content: "";
+	display: block;
+	clear: both;
+}

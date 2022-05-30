@@ -46,11 +46,6 @@ body {
 	margin-bottom: 10rem;
 }
 
-header {
-	background-color: rgba(235, 229, 252, 0.4);
-	height: 10rem;
-}
-
 .container {
 	margin: 0 auto;
 	max-width: var(--container-width);

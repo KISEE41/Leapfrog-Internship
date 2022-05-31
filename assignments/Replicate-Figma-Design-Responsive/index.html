@@ -26,21 +26,29 @@
 				<div class="logo float-left">
 					<a href="#"><span>Awww</span>some</a>
 				</div>
-				<nav class="float-right">
-					<div class="hamburger-menu" id="hamburger">
+				<nav class="float-right" id="navbar">
+					<div class="hamburger-menu">
 						<img
 							src="./assets/images/icons/hamburger-menu.png"
 							alt="hamburger-menu"
 						/>
 					</div>
+					<div class="close-btn">
+						<img
+							src="./assets/images/icons/close.png"
+							alt="close button"
+						/>
+					</div>
 					<ul class="nav-menu">
-						<li style="color: var(--color-purple)">
+						<li style="color: var(--color-purple)" class="nav-item">
 							<a href="#">Home</a>
 						</li>
-						<li><a href="#">About us</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">News</a></li>
-						<li class="btn btn-primary"><a href="#">Contact</a></li>
+						<li class="nav-item"><a href="#">About us</a></li>
+						<li class="nav-item"><a href="#">Services</a></li>
+						<li class="nav-item"><a href="#">News</a></li>
+						<li class="btn btn-primary nav-item">
+							<a href="#">Contact</a>
+						</li>
 					</ul>
 				</nav>
 			</div>
@@ -269,4 +277,32 @@
 			<div class="copyright">2022 &copy;, Awwwsome Designers</div>
 		</footer>
 	</body>
+	<script>
+		const openMenu = document.querySelector(".hamburger-menu");
+		const closeMenu = document.querySelector(".close-btn");
+
+		const navMenu = document.querySelector(".nav-menu");
+		const navItem = document.querySelector(".nav-item");
+
+		const nav = document.getElementById("navbar");
+
+		openMenu.addEventListener("click", show);
+		closeMenu.addEventListener("click", hide);
+
+		function show() {
+			navMenu.style.display = "block";
+			closeMenu.style.display = "block";
+			openMenu.style.display = "none";
+			nav.classList.add("active");
+			document.body.classList.add("disable-scrolling");
+		}
+
+		function hide() {
+			document.body.classList.remove("disable-scrolling");
+			navMenu.style.display = "none";
+			openMenu.style.display = "block";
+			nav.classList.remove("active");
+			closeMenu.style.display = "none";
+		}
+	</script>
 </html>

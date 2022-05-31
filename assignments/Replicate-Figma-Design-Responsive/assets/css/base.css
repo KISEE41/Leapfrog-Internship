@@ -1,0 +1,157 @@
+:root {
+	/* measurements */
+	--gutter-horizontal: 2rem;
+	--gutter-vertical: 2.5rem;
+	--grid-width: 120rem;
+
+	/* colors */
+	--color-primary: #363636;
+	--color-purple: #4e42d9;
+	--color-for-paragraph: #797979;
+
+	--color-secondary: rgba(78, 66, 217, 0.18);
+
+	--color-secondary-title: #3b3950;
+
+	--color-footer: #292838;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%; /*1rem=10px; 10/16=62.5%*/
+}
+
+body {
+	box-sizing: border-box;
+	color: var(--color-primary);
+	font-family: "Poppins", sans-serif;
+	line-height: 1.7;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+	html {
+		font-size: 50%; /*1rem=8px*/
+	}
+}
+
+@media screen and (max-width: 576px) {
+	html {
+		font-size: 37.5%; /*1rem=6px*/
+	}
+}
+
+@media screen and (max-width: 320px) {
+	html {
+		font-size: 25%; /*1rem=4px*/
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	html {
+		font-size: 62.5%; /*1rem=10px*/
+	}
+}
+
+ul > li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.clearfix {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.btn {
+	border-radius: 4px;
+	padding: 1.3rem 3rem;
+	font-size: 1.6rem;
+	margin: 1rem;
+}
+
+.btn-primary {
+	background-color: var(--color-purple);
+	color: white;
+}
+
+.btn-secondary {
+	background-color: var(--color-secondary);
+	color: var(--color-primary);
+}
+
+h1.heading-primary {
+	font-size: 3.6rem;
+	font-weight: 700;
+	line-height: 4.68rem;
+}
+
+h2.secondary-heading {
+	color: var(--color-secondary-title);
+	font-size: 3.2rem;
+	font-weight: 600;
+	line-height: 177.9%;
+}
+
+h3.tertiary-heading {
+	font-size: 2.5rem;
+	font-weight: 500;
+	line-height: 3.75rem;
+}
+
+p {
+	color: var(--color-for-paragraph);
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 2.4rem;
+	margin-top: 1.2rem;
+}
+
+@media screen and (max-width: 576px) {
+	h1.heading-primary {
+		font-size: 6rem;
+		line-height: 7.8rem;
+	}
+
+	h2.secondary-heading {
+		font-size: 5rem;
+		line-height: 177.9%;
+	}
+
+	h3.tertiary-heading {
+		font-size: 4.1rem;
+		line-height: 6.25rem;
+	}
+
+	p {
+		color: var(--color-for-paragraph);
+		font-size: 2.5rem;
+		line-height: 4rem;
+		margin-top: 2rem;
+		line-height: 4rem;
+	}
+}

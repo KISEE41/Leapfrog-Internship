@@ -1,0 +1,41 @@
+.Typography-section__title {
+	color: #152536;
+}
+
+.Typography-section__menu {
+	margin-top: 2.4rem;
+	width: 62.1rem;
+}
+
+.tab-items {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 1.4rem;
+	padding: 1rem 2.9rem;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border: 1px solid #dee2e6;
+	border-bottom: none;
+	margin-right: -0.3rem;
+}
+
+.border-bottom-none {
+	border-bottom: 2px solid white !important;
+}
+
+.tab-text {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #68717a;
+	border-top: 1px solid #dee2e6;
+	padding: 2rem 0;
+	margin-top: -1px;
+}
+
+.color-gray {
+	color: #6c757d !important;
+}
+
+.color-purple {
+	color: #7749f8 !important;
+}

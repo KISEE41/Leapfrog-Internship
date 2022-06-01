@@ -1,0 +1,49 @@
+.card {
+	width: 28rem;
+	margin: 4rem 6rem 0 0;
+	padding: 2rem 1rem;
+	border-radius: 1.2rem;
+}
+
+.card-image {
+	margin: 0.8rem -1rem;
+}
+
+.icons {
+	margin-top: -1rem;
+	border-bottom: 1px solid rgba(107, 117, 125, 0.3);
+}
+
+.input {
+	padding: 1rem;
+	margin: 1.9rem 0 0 0.5rem;
+	border-radius: 20rem;
+	border: 1px solid rgba(107, 117, 125, 0.3);
+	height: 3rem;
+}
+
+.play-background {
+	background-color: rgb(51, 209, 51);
+	border-radius: 50%;
+	width: 7rem;
+	height: 7rem;
+	margin: -5rem auto;
+	position: relative;
+}
+
+.play-image {
+	margin: 1.5rem;
+}
+
+.card-text {
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 7rem;
+}
+
+.btn {
+	background-color: rgb(51, 209, 51);
+	border-radius: 0.7rem;
+	padding: 0.4rem 1.3rem;
+	margin: 0.9rem 0;
+}

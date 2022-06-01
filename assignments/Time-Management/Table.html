@@ -8,8 +8,7 @@
 		<!-- css files -->
 		<link rel="stylesheet" type="text/css" href="./assets/css/base.css" />
 		<link rel="stylesheet" type="text/css" href="./assets/css/header.css" />
-		<link rel="stylesheet" type="text/css" href="./assets/css/color.css" />
-
+		<link rel="stylesheet" type="text/css" href="./assets/css/table.css" />
 		<title>Time Management</title>
 	</head>
 	<body>
@@ -37,32 +36,53 @@
 				</div>
 			</div>
 		</header>
-		<section class="color-section">
+		<section class="Table-section">
 			<div class="container">
-				<div class="color-section__title">
+				<div class="Table-section__title">
 					<h1 class="heading-primary padding border-bottom">
-						COLORS
+						Tables
 					</h1>
 				</div>
-				<div class="color-container" style="margin-top: 5.4rem">
-					<div class="colors">
-						<h2 class="heading-secondary">Primary Color</h2>
-						<div>
-							<div class="inline-block card">
-								<div class="card-color bg-primary"></div>
-								<div class="color-title">Primary</div>
-								<div class="color-code">#7749F8</div>
-							</div>
-							<div class="inline-block card">
-								<div class="card-color bg-primary-dark"></div>
-								<div class="color-title">Primary Dark</div>
-								<div class="color-code">#5227CC</div>
-							</div>
-							<div class="inline-block card">
-								<div class="card-color bg-primary-light"></div>
-								<div class="color-title">Primary Light</div>
-								<div class="color-code">#EBE5FC</div>
-							</div>
+				<table>
+					<thead>
+						<tr>
+							<th><b>#</b></th>
+							<th><b>First</b></th>
+							<th><b>Last</b></th>
+							<th><b>Handle</b></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><b>1</b></td>
+							<td>Mark</td>
+							<td>Otto</td>
+							<td>@mdo</td>
+						</tr>
+						<tr>
+							<td><b>2</b></td>
+							<td>Jacob</td>
+							<td>Thornton</td>
+							<td>@fat</td>
+						</tr>
+						<tr>
+							<td><b>3</b></td>
+							<td>Larry</td>
+							<td>the Bird</td>
+							<td>@twitter</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="clearfix">
+					<div class="float-right">
+						<div class="pagination">
+							<a href="#" style="color: #abb5be"
+								><div>Prev</div></a
+							>
+							<a href="#" class="active"><div>1</div></a>
+							<a href="#"><div>2</div></a>
+							<a href="#"><div>3</div></a>
+							<a href="#"><div>Next</div></a>
 						</div>
 					</div>
 				</div>

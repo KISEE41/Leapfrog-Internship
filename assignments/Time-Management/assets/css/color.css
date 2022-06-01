@@ -1,0 +1,36 @@
+.colors-container {
+	margin: 5.4rem 0;
+}
+
+.card {
+	margin: 2.7rem 2.4rem 0 0;
+}
+
+.card-color {
+	border-radius: 8px;
+	height: 7.2rem;
+	margin-bottom: 1rem;
+	width: 16.6rem;
+}
+
+.color-title {
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+
+.color-code {
+	font-size: 1.2rem;
+	color: #6b7176;
+}
+
+.bg-primary {
+	background-color: var(--color-primary);
+}
+
+.bg-primary-dark {
+	background-color: var(--color-primary-dark);
+}
+
+.bg-primary-light {
+	background-color: var(--color-primary-light);
+}

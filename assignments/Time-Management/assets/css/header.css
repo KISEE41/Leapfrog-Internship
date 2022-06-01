@@ -3,7 +3,7 @@ header {
 }
 
 .header__container {
-	padding: 3rem 0;
+	padding: 1.8rem 0;
 }
 
 .header__container__navigation {
@@ -11,15 +11,21 @@ header {
 }
 
 .header__container__navigation ul > li {
-	margin: 1.5rem;
+	font-size: 1.8rem;
+	color: #6c757d;
+}
+
+.header__container__navigation ul {
+	margin: 1.5rem 0;
 }
 
 .header__container__navigation > div {
 	margin-right: 6rem;
+	font-size: 2rem;
 }
 
 .header__container__navigation li:not(:last-child) {
-	margin-right: 2.5rem;
+	margin-right: 3rem;
 }
 
 nav > ul > li {

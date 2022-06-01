@@ -37,10 +37,7 @@ html {
 
 body {
 	box-sizing: border-box;
-}
-
-body > * {
-	margin-bottom: 10rem;
+	font-weight: 600;
 }
 
 .float-left {
@@ -68,23 +65,31 @@ ul > li {
 
 .container {
 	margin: 0 auto;
-	width: 150rem;
+	width: 140rem;
 }
 
 h1.heading-primary {
 	font-size: 4rem;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 h2.heading-secondary {
-	font-size: 3rem;
-	font-weight: 400;
+	font-size: 3.2rem;
+	font-weight: 600;
 }
 
 .heading-primary.padding {
-	padding-bottom: 4rem;
+	padding: 3.2rem 0;
 }
 
-.margin-bottom {
-	border-bottom: 2px solid rgba(107, 117, 125, 0.3);
+.border-bottom {
+	border-bottom: 1px solid #ced4da;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.box-shadow {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

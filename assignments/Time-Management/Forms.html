@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<!-- css files -->
+		<link rel="stylesheet" type="text/css" href="./assets/css/base.css" />
+		<link rel="stylesheet" type="text/css" href="./assets/css/header.css" />
+		<link rel="stylesheet" type="text/css" href="./assets/css/forms.css" />
+		<title>Time Management</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__container container clearfix">
+				<div class="header__container__navigation float-left">
+					<div class="float-left">
+						<h1><a href="#">UI Kit</a></h1>
+					</div>
+					<nav class="float-left">
+						<ul>
+							<li><a href="index.html">Color</a></li>
+							<li><a href="Typography.html">Typography</a></li>
+							<li><a href="Buttons.html">Buttons</a></li>
+							<li><a href="Forms.html">Forms</a></li>
+							<li><a href="List.html">List Group</a></li>
+							<li><a href="Table.html">Table</a></li>
+							<li><a href="Card.html">Card</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__navigation__input-field float-right">
+					<input type="text" placeholder="Search" />
+					<button>Search</button>
+				</div>
+			</div>
+		</header>
+		<section class="Form-section">
+			<div class="container">
+				<div class="Form-section__title">
+					<h1 class="heading-primary padding border-bottom">Forms</h1>
+				</div>
+                <div class="clearfix form">
+                    <div class="float-left width-30">
+                        <h2 class="heading-secondary">
+                            <b>Components</b>
+                        </h2>
+                        <div class="form-components" style="margin-top: 3.5rem;">
+                            <div>Color</div>
+                            <div>Typography</div>
+                            <div>Buttons</div>
+                            <div class="active">Forms</div>
+                            <div>List Group</div>
+                            <div>Table</div>
+                            <div>Card</div>
+                        </div>
+                    </div>
+                    <div class="float-left width-70">
+                        <div class="input-fields">
+                            <div>
+                                <h3 style="margin: 4.8rem 0 1.6rem 0;">Input</h3>
+                                <input
+                                    type="text"
+                                    placeholder="Placeholder"
+                                    name="input"
+                                    id="inputForm"
+                                    class="fields"
+                                />
+                            </div>
+                            <div>
+                                <h3 style="margin: 4.8rem 0 1.6rem 0;">Select Menu</h3>
+                                <select
+                                    id="selectMenu"
+                                    name="select_menu"
+                                    class="fields"
+                                    style="margin-bottom: 4.8rem;"
+                                >
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                    <option>Option 3</option>
+                                </select>
+                            </div>
+                            <div>
+                                <h3 style="margin: 0 0 1.6rem 0;">Textarea</h3>
+                                <textarea
+                                    id="textarea"
+                                    name="textarea_input"
+                                >
+Write your message here</textarea
+                                >
+                            </div>
+                            <div class="checkboxes">
+                                <h3 style="margin: 4.8rem 0 1.6rem 0;">Checkboxes</h3>
+                                <div>
+                                    <div class="inline-block">
+                                        <h4>Checkboxes</h4>
+                                        <div>
+                                            <input
+                                                type="checkbox"
+                                                name="check-box"
+                                                id="CheckBox"
+                                            />
+                                            <label for="CheckBox"
+                                                >Default CheckBox</label
+                                            >
+                                        </div>
+                                        <div>
+                                            <input
+                                                type="checkbox"
+                                                name="check-box"
+                                                id="CheckBox"
+                                                checked
+                                            />
+                                            <label for="CheckBox"
+                                                >Default checkbox</label
+                                            >
+                                        </div>
+                                        <div>
+                                            <input
+                                                type="checkbox"
+                                                name="check-box"
+                                                id="CheckBox"
+                                                disabled
+                                            />
+                                            <label for="CheckBox"
+                                                >Default (disabled)</label
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="inline-block inline-checkbox">
+                                        <h4>Checkboxes inline</h4>
+                                        <div class="inline-block">
+                                            <input
+                                                type="checkbox"
+                                                name="check-box"
+                                                id="CheckBox"
+                                            />
+                                            <label for="CheckBox"
+                                                >Default CheckBox</label
+                                            >
+                                        </div>
+                                        <div class="inline-block">
+                                            <input
+                                                type="checkbox"
+                                                name="check-box"
+                                                id="CheckBox"
+                                                checked
+                                            />
+                                            <label for="CheckBox"
+                                                >Default checkbox</label
+                                            >
+                                        </div>
+                                        <div class="inline-block">
+                                            <input
+                                                type="checkbox"
+                                                name="check-box"
+                                                id="CheckBox"
+                                                disabled
+                                            />
+                                            <label for="CheckBox"
+                                                >Default (disabled)</label
+                                            >
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="radioboxes">
+                                <h3 style="margin: 4.8rem 0 1.6rem 0;">Radios</h3>
+                                <div>
+                                    <div class="inline-block">
+                                        <h4>Radios</h4>
+                                        <div>
+                                            <input
+                                                type="radio"
+                                                name="radio-box"
+                                                id="RadioBox"
+                                            />
+                                            <label for="RadioBox"
+                                                >Default Radio</label
+                                            >
+                                        </div>
+                                        <div>
+                                            <input
+                                                type="radio"
+                                                name="radio-box"
+                                                id="RadioBox"
+                                                checked
+                                            />
+                                            <label for="RadioBox"
+                                                >Selected Radio</label
+                                            >
+                                        </div>
+                                        <div>
+                                            <input
+                                                type="radio"
+                                                name="radio-box"
+                                                id="RadioBox"
+                                                disabled
+                                            />
+                                            <label for="RadioBox"
+                                                >Disabled radio</label
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="inline-block inline-radios">
+                                        <h4 style="margin: 4.8rem 0 1.6rem 0;">Radios inline</h4>
+                                        <div class="inline-block">
+                                            <input
+                                                type="radio"
+                                                name="radio-box"
+                                                id="RadioBox"
+                                            />
+                                            <label for="RadioBox"
+                                                >Default Radio</label
+                                            >
+                                        </div>
+                                        <div class="inline-block">
+                                            <input
+                                                type="radio"
+                                                name="radio-box"
+                                                id="RadioBox"
+                                                checked
+                                            />
+                                            <label for="RadioBox"
+                                                >Selected Radio</label
+                                            >
+                                        </div>
+                                        <div class="inline-block">
+                                            <input
+                                                type="radio"
+                                                name="radio-box"
+                                                id="RadioBox"
+                                                disabled
+                                            />
+                                            <label for="RadioBox"
+                                                >Disabled radio</label
+                                            >
+                                        </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 style="margin: 4.8rem 0 1.6rem 0;">Validation</h3>
+                                <div class="validation">
+                                    <div>
+                                        <label id="InputSuccess">Input Success</label><br>
+                                        <input type="text" id="InputSuccess" name="success_input" class="input input-success">
+                                    </div>
+                                    <div>
+                                        <label id="InputError">Input Error</label><br>
+                                        <input type="text" id="InputError" name="error_input" class="input input-error">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+		</section>
+	</body>
+</html>

@@ -1,0 +1,90 @@
+:root {
+	/* For colors*/
+	/* Primary Colors */
+	--color-primary: #7749f8;
+	--color-primary-dark: #5227cc;
+	--color-primary-light: #ebe5fc;
+
+	/* Secondary Colors */
+	--color-secondary: #717376;
+	--color-secondary-dark: #54595e;
+	--color-secondary-light: #abb5be;
+
+	/* Status Colors */
+	--color-success: #28a745;
+	--color-danger: #dc3545;
+	--color-warning: #ffc107;
+	--color-info: #17a2bb;
+
+	/* Gray Colors */
+	--color-gray-600: #6b757d;
+	--color-gray-700: #495057;
+	--color-gray-800: #343a40;
+	--color-gray-900: #212529;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+body > * {
+	margin-bottom: 10rem;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul > li {
+	list-style-type: none;
+}
+
+.container {
+	margin: 0 auto;
+	width: 150rem;
+}
+
+h1.heading-primary {
+	font-size: 4rem;
+	font-weight: 600;
+}
+
+h2.heading-secondary {
+	font-size: 3rem;
+	font-weight: 400;
+}
+
+.heading-primary.padding {
+	padding-bottom: 4rem;
+}
+
+.margin-bottom {
+	border-bottom: 2px solid rgba(107, 117, 125, 0.3);
+}

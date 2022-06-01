@@ -38,7 +38,7 @@
 
 @media screen and (min-width: 1200px) {
 	.row {
-		max-width: 110rem;
+		max-width: 130rem;
 	}
 }
 
@@ -89,6 +89,40 @@
 		((100% - 11 * var(--gutter-horizontal)) / 12) * 3 + 2 *
 			var(--gutter-horizontal)
 	);
+}
+
+@media screen and (max-width: 1150px) {
+	.row [class^="col"]:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.row .col-3-of-12 {
+		width: 45%;
+		display: inline-block;
+		margin: 2rem auto;
+		height: 20rem;
+	}
+
+	.row .col-3-of-12:nth-child(odd) {
+		margin-right: 2rem;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.row [class^="col"]:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.row .col-3-of-12 {
+		width: 45%;
+		display: inline-block;
+		margin: 2rem auto;
+		height: 35rem;
+	}
+
+	.row .col-3-of-12:nth-child(odd) {
+		margin-right: 5rem;
+	}
 }
 
 .row .col-4-of-12 {

@@ -1,0 +1,49 @@
+header {
+	background-color: rgba(235, 229, 252, 0.4);
+}
+
+.header__container {
+	padding: 3rem 0;
+}
+
+.header__container__navigation {
+	font-size: 2rem;
+}
+
+.header__container__navigation ul > li {
+	margin: 1.5rem;
+}
+
+.header__container__navigation > div {
+	margin-right: 6rem;
+}
+
+.header__container__navigation li:not(:last-child) {
+	margin-right: 2.5rem;
+}
+
+nav > ul > li {
+	float: left;
+}
+
+.header__navigation__input-field {
+	padding: 1rem 0;
+}
+
+.header__navigation__input-field > input {
+	border: 2px solid var(--color-gray-600);
+	border-radius: 5px;
+	color: var(--color-gray-600);
+	height: 3.7rem;
+	opacity: 0.8;
+	padding: 1rem;
+}
+
+.header__navigation__input-field > button {
+	background-color: transparent;
+	border: 2px solid var(--color-success);
+	border-radius: 5px;
+	color: var(--color-success);
+	cursor: pointer;
+	padding: 0.9rem;
+}

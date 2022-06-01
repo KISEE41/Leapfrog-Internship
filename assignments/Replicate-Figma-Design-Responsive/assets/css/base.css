@@ -36,7 +36,7 @@ body {
 	font-weight: 600;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 756px) {
 	html {
 		font-size: 50%; /*1rem=8px*/
 	}
@@ -129,6 +129,31 @@ p {
 	font-weight: 400;
 	line-height: 2.4rem;
 	margin-top: 1.2rem;
+}
+
+@media screen and (max-width: 756px) {
+	h1.heading-primary {
+		font-size: 6rem;
+		line-height: 7.8rem;
+	}
+
+	h2.secondary-heading {
+		font-size: 5rem;
+		line-height: 177.9%;
+	}
+
+	h3.tertiary-heading {
+		font-size: 4.1rem;
+		line-height: 6.25rem;
+	}
+
+	p {
+		color: var(--color-for-paragraph);
+		font-size: 2.5rem;
+		line-height: 4rem;
+		margin-top: 2rem;
+		line-height: 4rem;
+	}
 }
 
 @media screen and (max-width: 576px) {

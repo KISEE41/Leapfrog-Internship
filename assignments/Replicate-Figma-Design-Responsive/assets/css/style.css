@@ -9,6 +9,13 @@
 	}
 }
 
+@media screen and (min-width: 1200px) {
+	.header-section {
+		max-width: 185rem;
+		margin: 0 auto;
+	}
+}
+
 .logo > a {
 	font-size: 3rem;
 }
@@ -155,9 +162,16 @@ nav > .close-btn {
 	}
 }
 
+@media screen and (max-width: 1200px) {
+	.hero-image {
+		width: 35rem;
+		margin-top: 6rem;
+	}
+}
+
 @media screen and (max-width: 850px) {
 	.hero-image {
-		width: 30rem;
+		width: 25rem;
 		margin-top: 13rem;
 	}
 }

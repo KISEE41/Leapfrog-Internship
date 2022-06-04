@@ -25,11 +25,11 @@
 	margin-top: -7.9rem;
 	background: linear-gradient(
 		270deg,
-		#ffffff 0%,
+		#fff 0%,
 		rgba(255, 255, 255, 0) 11.46%,
 		rgba(255, 255, 255, 0) 45.83%,
 		rgba(255, 255, 255, 0) 88.02%,
-		#ffffff 100%
+		#fff 100%
 	);
 	display: block;
 	width: 100%;
@@ -52,10 +52,10 @@
 }
 
 .partners__logo .logos li:not(:last-child) {
-	margin-right: 6.5rem;
+	margin-right: 9.5rem;
 }
 
-@media screen and (max-width: 87.5em) {
+@media screen and (max-width: 112.5em) {
 	/* .partners__logo .logos li:last-child,
 	.partners__logo .logos li:first-child {
 		display: none;

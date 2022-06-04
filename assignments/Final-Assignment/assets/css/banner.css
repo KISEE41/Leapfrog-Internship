@@ -1,0 +1,76 @@
+.section__banner {
+	height: 69.4rem;
+	width: 100%;
+	position: relative;
+	padding-top: 9.3rem;
+}
+
+.p-relative {
+	position: relative;
+	height: 100%;
+}
+
+.point-lg {
+	position: absolute;
+	top: 7.1rem;
+	left: -2rem;
+}
+
+.point-sm {
+	position: absolute;
+	top: 350px;
+	left: 40%;
+}
+
+.bg-image {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -10;
+}
+
+.bg-image > img {
+	width: 99.1vw;
+}
+
+.banner__text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 49.2rem;
+	margin-top: 8rem;
+}
+
+.banner__image {
+	position: absolute;
+	top: 0;
+	right: -10rem;
+	z-index: -100;
+}
+
+.banner__image img {
+	width: 50rem;
+}
+
+.banner__buttons .btn-tertiary {
+	margin-right: 2rem;
+	border: none !important;
+	border-right: 2px solid #e5e5e5 !important;
+}
+
+.banner__buttons .btn-tertiary:hover {
+	background-color: white;
+	border: none;
+	color: #09215e;
+}
+
+.banner__buttons .btn-tertiary > img {
+	transform: translateY(13px);
+	margin-right: 1rem;
+	width: 40px;
+}
+
+.banner__buttons .btn-primary > img {
+	/* transform: translateY(4px); */
+	width: 14px;
+}

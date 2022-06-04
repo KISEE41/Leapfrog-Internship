@@ -1,0 +1,46 @@
+.section__support {
+	height: 52.8rem;
+}
+
+.section__support .container {
+	position: relative;
+}
+
+.support__image {
+	position: absolute;
+	top: 6.7rem;
+	left: 22rem;
+}
+
+.arrow-sm {
+	position: absolute;
+	top: 7.2rem;
+	left: 16rem;
+}
+
+.arrow-lg {
+	position: absolute;
+	top: 22rem;
+	left: -1rem;
+}
+
+.arrow-md {
+	position: absolute;
+	top: 36.5rem;
+	right: 7.1rem;
+}
+
+.support__text {
+	position: absolute;
+	top: 14.8rem;
+	right: 17rem;
+	width: 39.2rem;
+}
+
+.support__text h2 {
+	margin-bottom: 1.6rem;
+}
+
+.support__text p {
+	margin-bottom: 3.6rem;
+}

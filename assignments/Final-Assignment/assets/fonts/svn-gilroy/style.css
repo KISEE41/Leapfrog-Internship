@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 100;
+  src: local("./SVN-Gilroy Thin.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: italic;
+  font-weight: 100;
+  src: local("./SVN-Gilroy-Thin-Italic"),
+    url("SVN-Gilroy Thin Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 200;
+  src: local("SVN-Gilroy Xlight"), url("SVN-Gilroy Xlight.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: italic;
+  font-weight: 200;
+  src: local("SVN-Gilroy Xlight Italic"),
+    url("SVN-Gilroy Xlight Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  src: local("SVN-Gilroy Light"), url("SVN-Gilroy Light.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: italic;
+  font-weight: 300;
+  src: local("SVN-Gilroy Light Italic"),
+    url("SVN-Gilroy Light Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  src: local("SVN-Gilroy Regular"), url("SVN-Gilroy Regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: italic;
+  font-weight: 400;
+  src: local("SVN-Gilroy Italic"),
+    url("SVN-Gilroy Regular Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  src: local("SVN-Gilroy Medium"), url("SVN-Gilroy Medium.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: italic;
+  font-weight: 500;
+  src: local("SVN-Gilroy Medium Italic"),
+    url("SVN-Gilroy Medium Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  src: local("SVN-Gilroy SemiBold"),
+    url("SVN-Gilroy SemiBold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: italic;
+  font-weight: 600;
+  src: local("SVN-Gilroy SemiBold Italic"),
+    url("SVN-Gilroy SemiBold Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  src: local("SVN-Gilroy Bold"), url("SVN-Gilroy Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: italic;
+  font-weight: 700;
+  src: local("SVN-Gilroy Bold Italic"),
+    url("SVN-Gilroy Bold Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  src: local("SVN-Gilroy XBold"), url("SVN-Gilroy XBold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: italic;
+  font-weight: 800;
+  src: local("SVN-Gilroy XBold Italic"),
+    url("SVN-Gilroy XBold Italic.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: normal;
+  font-weight: 900;
+  src: local("SVN-Gilroy Heavy"), url("SVN-Gilroy Heavy.otf") format("otf");
+}
+
+@font-face {
+  font-family: "SVN-Gilroy";
+  font-style: italic;
+  font-weight: 900;
+  src: local("SVN-Gilroy Heavy Italic"),
+    url("SVN-Gilroy Heavy Italic.otf") format("otf");
+}

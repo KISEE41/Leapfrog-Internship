@@ -1,0 +1,21 @@
+.row {
+	width: 100%;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.row .col-4 {
+	float: left;
+	/* height: 100%; */
+	width: 25%;
+}
+
+.row .col-2 {
+	float: left;
+	/* height: 100%; */
+	width: 50%;
+}

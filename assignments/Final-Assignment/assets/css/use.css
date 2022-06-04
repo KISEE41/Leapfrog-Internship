@@ -1,0 +1,36 @@
+.section__use {
+	padding: 10rem 0 6rem 0;
+}
+
+.use__text {
+	width: 46.8rem;
+	margin-top: 20rem;
+}
+
+.section__use .btn {
+	font-size: 20px;
+	line-height: 28px;
+	padding: 1.4rem 2.4rem;
+	margin-right: 1.6rem;
+}
+
+.section__use .use__buttons {
+	margin-top: 3.6rem;
+}
+
+.use__buttons .use-icons {
+	display: inline-block;
+	margin-right: 0.8rem;
+	transform: scale(1.1) translateY(2px);
+}
+
+.use__buttons a {
+	display: inline-block;
+}
+
+.section__use p {
+	margin-top: 1.2rem;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}

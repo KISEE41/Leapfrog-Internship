@@ -1,0 +1,70 @@
+.section__features {
+	padding: 6rem 2.8rem;
+	position: relative;
+}
+
+.section__features .background-image {
+	position: absolute;
+	top: 16rem;
+	left: 29%;
+	z-index: -10;
+}
+
+.section__features .background-image > img {
+	width: 78.5rem;
+	height: 55.2rem;
+}
+
+.features__text {
+	width: 60rem;
+	margin: 0 auto;
+}
+
+.features__text p {
+	margin-top: 1.6rem;
+	padding: 4px;
+}
+
+.features__grid {
+	margin: 5.6rem 0 6rem 0;
+}
+
+.grid-text h3.heading-tertiary {
+	font-size: 26px;
+	line-height: 32px;
+	width: 100%;
+}
+
+.grid-text p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 2.4rem;
+	width: 100%;
+}
+
+.card {
+	padding: 2.8rem;
+	background-color: white;
+}
+
+.card img {
+	width: 16rem;
+}
+
+.card__text {
+	width: 30.5rem;
+}
+
+.card__text > h3.heading-tertiary {
+	font-weight: 600;
+	font-size: 26px;
+	line-height: 32px;
+}
+
+.card__text > p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 2.4rem;
+}

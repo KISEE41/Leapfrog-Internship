@@ -1,0 +1,53 @@
+.header > .container {
+	padding: 3.6rem 0;
+}
+
+.header__nav > li {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.header__nav li:hover {
+	color: #2a84c6;
+	transition: 0.3s ease-in;
+}
+
+.header__nav li:nth-child(5):hover .angle-down {
+	transform: translate(4px, 1px) rotateZ(-180deg);
+	transition: 0.5s ease;
+}
+
+.header__nav > li:not(:last-child) {
+	margin-right: 3.6rem;
+}
+
+.angle-down {
+	transform: translate(4px, 1px);
+	width: 13px;
+}
+
+.entry-option {
+	margin-left: 5.6rem;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+	display: block;
+}
+
+.sign-in {
+	color: #2a84c6;
+	padding: 8px 24px !important;
+	border: none !important;
+}
+
+.sign-in:hover {
+	color: #09215e !important;
+	background-color: white !important;
+	border: none !important;
+}
+
+.sign-up {
+	padding: 8px 24px !important;
+}

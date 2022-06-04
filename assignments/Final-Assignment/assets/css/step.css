@@ -1,0 +1,35 @@
+.mockup-image {
+	margin: 9.6rem 0 0 0;
+}
+
+.steps__text {
+	margin: 10rem 0;
+	width: 49.6rem;
+}
+
+.steps__text > p {
+	margin-top: 1.6rem;
+	padding: 4px;
+}
+
+.steps {
+	margin-top: 3.6rem;
+}
+
+.steps ul > li {
+	width: 49.6rem;
+	margin-top: 4.8rem;
+}
+
+.steps ul > li > figure {
+	margin: 0.7rem 3.6rem 0 0;
+}
+
+li > figure > img {
+	width: 6rem;
+}
+
+.steps ul > li > div {
+	width: 40rem;
+	/* margin-top: 3.6rem; */
+}

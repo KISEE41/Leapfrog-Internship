@@ -1,0 +1,51 @@
+.section__choice {
+	padding: 10rem 0 0 0;
+}
+
+.section__choice .choice__text {
+	margin: 0 auto;
+}
+
+.choice__text {
+	width: 54.4rem;
+	text-align: center;
+	margin-bottom: 5.6rem;
+}
+
+.option {
+	margin: 5.6rem 0 6rem 0;
+	padding: 3.8rem 0;
+}
+
+.option__card {
+	display: inline-block;
+}
+
+.option__card:not(:last-child) {
+	margin-right: 15.1rem;
+}
+
+.card__figure {
+	padding: 0 4.4rem 0 4.4rem;
+}
+
+.card__figure img {
+	width: 20rem;
+	height: 20rem;
+}
+
+.card__text {
+	text-align: center;
+}
+
+.card__text h3.tertiary-heading {
+	font-size: 26px;
+	line-height: 32px;
+}
+
+.card__text p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 1.6rem !important;
+}

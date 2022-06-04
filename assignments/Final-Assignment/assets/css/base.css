@@ -15,6 +15,33 @@ html {
 	font-size: 62.5%;
 }
 
+/* Phone: < 600px
+Tablet-portrait: 600px - 900px
+Tablet-landscape: 900px - 1200px
+Normal Desktop: 1200px - 1800px
+Big Desktop: 1800px < */
+
+@media screen and (max-width: 75em) {
+	html {
+		/* For tablet-landscape using 1rem as 9px */
+		font-size: 56.25%;
+	}
+}
+
+@media screen and (max-width: 56.25em) {
+	html {
+		/* For phone and tablet-potrait using 1rem as 8px */
+		font-size: 50%;
+	}
+}
+
+@media screen and (min-width: 112.5em) {
+	html {
+		/* For big desktop using 1rem as 12px */
+		font-size: 75%;
+	}
+}
+
 body {
 	box-sizing: border-box;
 	font-family: "SVN-Gilroy", sans-serif;
@@ -26,6 +53,30 @@ body {
 .container {
 	margin: 0 auto;
 	max-width: var(--grid-width);
+}
+
+@media screen and (max-width: 84.375em) {
+	.container {
+		max-width: 100rem;
+	}
+}
+
+@media screen and (max-width: 65.625em) {
+	.container {
+		max-width: 85rem;
+	}
+}
+
+@media screen and (max-width: 53.125em) {
+	.container {
+		max-width: 66.67rem;
+	}
+}
+
+@media screen and (max-width: 37.5em) {
+	.container {
+		max-width: 45rem;
+	}
 }
 
 a {
@@ -52,10 +103,10 @@ ul > li {
 }
 
 .btn {
-	padding: 1.1rem 2.4rem;
+	padding: 11px 24px;
 	border-radius: 4px;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 1.6rem;
 	line-height: 20px;
 	text-align: center;
 }
@@ -106,35 +157,77 @@ ul > li {
 
 h1.heading-primary {
 	font-weight: 600;
-	font-size: 48px;
-	line-height: 56px;
+	font-size: 4.8rem;
+	line-height: 5.6rem;
 }
 
 h2.heading-secondary {
 	font-weight: 600;
-	font-size: 34px;
-	line-height: 44px;
+	font-size: 3.4rem;
+	line-height: 4.4rem;
 }
 
 h3.heading-tertiary {
 	font-weight: 700;
-	font-size: 20px;
-	line-height: 28px;
+	font-size: 2rem;
+	line-height: 2.8rem;
+}
+
+@media screen and (max-width: 56.25em) {
+	h1.heading-primary {
+		font-size: 5.2rem;
+	}
+
+	h2.heading-secondary {
+		font-size: 3.7rem;
+	}
+
+	h3.heading-tertiary {
+		font-size: 2.2rem;
+	}
+}
+
+@media screen and (max-width: 37.5em) {
+	h1.heading-primary {
+		font-size: 5.25rem;
+	}
+
+	h2.heading-secondary {
+		font-size: 3.75rem;
+	}
+
+	h3.heading-tertiary {
+		font-size: 2.5rem;
+	}
 }
 
 .text-highlight {
 	color: #103697;
 	font-weight: 600;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
 }
 
 p {
 	font-weight: 400;
-	font-size: 16px;
-	line-height: 20px;
+	font-size: 1.6rem;
+	line-height: 2rem;
 	margin-top: 1.2rem;
 	padding: 4px;
+}
+
+@media screen and (max-width: 75em) {
+	p,
+	.text-highlight {
+		font-size: 1.7rem !important;
+	}
+}
+
+@media screen and (max-width: 56.25em) {
+	p,
+	.text-highlight {
+		font-size: 1.875rem !important;
+	}
 }
 
 .text-center {

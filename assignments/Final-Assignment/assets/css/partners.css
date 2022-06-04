@@ -44,6 +44,7 @@
 
 .partners__logo .logos {
 	margin: 0.8rem 0;
+	overflow: hidden;
 }
 
 .partners__logo .logos li {
@@ -53,3 +54,50 @@
 .partners__logo .logos li:not(:last-child) {
 	margin-right: 6.5rem;
 }
+
+@media screen and (max-width: 87.5em) {
+	/* .partners__logo .logos li:last-child,
+	.partners__logo .logos li:first-child {
+		display: none;
+	}
+
+	.partners__logo > ul {
+		transform: translateX(12%);
+		overflow: hidden;
+	}
+
+	.partners__logo::after {
+		display: none;
+	} */
+	.partners__logo {
+		display: none;
+		width: 0;
+	}
+}
+
+/* @media screen and (max-width: 65.625em) {
+	.partners__logo .logos li:last-child,
+	.partners__logo .logos li:first-child,
+	.partners__logo .logos li:nth-child(2),
+	.partners__logo .logos li:nth-child(5) {
+		display: none;
+	}
+
+	.partners__logo > ul {
+		transform: translateX(30%);
+	}
+
+	.logos {
+		overflow: hidden;
+	}
+}
+
+@media screen and (max-width: 53.125em) {
+	.partners__logo > ul {
+		transform: translateX(21%);
+	}
+
+	.logos {
+		overflow: hidden;
+	}
+} */

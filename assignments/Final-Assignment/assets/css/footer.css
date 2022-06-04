@@ -55,7 +55,7 @@ footer .btn {
 
 .copyright-text > p {
 	font-weight: 600;
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 1.7;
 	margin: 0;
 	padding: 0;
@@ -77,4 +77,11 @@ footer .btn {
 
 .footer__icons {
 	margin: 1.1rem 0;
+}
+
+@media screen and (max-width: 78.125em) {
+	.footer__copyright > div {
+		display: block;
+		width: 100%;
+	}
 }

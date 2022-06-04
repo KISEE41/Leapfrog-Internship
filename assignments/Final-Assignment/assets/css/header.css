@@ -5,8 +5,8 @@
 .header__nav > li {
 	display: inline-block;
 	font-weight: 500;
-	font-size: 20px;
-	line-height: 28px;
+	font-size: 2rem;
+	line-height: 2.8rem;
 }
 
 .header__nav li:hover {
@@ -23,22 +23,40 @@
 	margin-right: 3.6rem;
 }
 
+@media screen and (max-width: 75em) {
+	.header__nav > li:not(:last-child) {
+		margin: 0.3rem 2.5rem 0 0;
+	}
+}
+
+@media screen and (max-width: 62.5em) {
+	.header__nav > li:not(:last-child) {
+		margin: 0 1rem 0;
+	}
+}
+
 .angle-down {
 	transform: translate(4px, 1px);
 	width: 13px;
 }
 
 .entry-option {
-	margin-left: 5.6rem;
+	margin: 0.5rem 0 0 5.6rem;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 20px;
 	display: block;
 }
 
+@media screen and (max-width: 75em) {
+	.entry-option {
+		margin: 0.5rem 0 0 1rem;
+	}
+}
+
 .sign-in {
 	color: #2a84c6;
-	padding: 8px 24px !important;
+	padding: 0.8rem 2.4rem !important;
 	border: none !important;
 }
 
@@ -49,5 +67,43 @@
 }
 
 .sign-up {
-	padding: 8px 24px !important;
+	padding: 0.8rem 2.4rem !important;
+}
+
+.hamburger {
+	display: none;
+}
+
+@media screen and (max-width: 65.8em) {
+	.header__logo {
+		display: block;
+		text-align: center;
+	}
+
+	nav {
+		display: block;
+		width: 100%;
+		margin-top: 2rem;
+	}
+
+	.entry-option {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 53.25em) {
+	.header__logo {
+		float: left;
+		text-align: left;
+	}
+
+	nav {
+		display: none;
+	}
+
+	.hamburger {
+		display: block;
+		float: right;
+		margin: 0.3rem 0;
+	}
 }

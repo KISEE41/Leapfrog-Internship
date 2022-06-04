@@ -10,12 +10,35 @@
 
 .row .col-4 {
 	float: left;
-	/* height: 100%; */
-	width: 25%;
+	height: 228px;
+	width: 17.7rem;
+	margin-top: 4rem;
+}
+
+.row .col-4:not(:last-child) {
+	margin-right: 16rem;
 }
 
 .row .col-2 {
 	float: left;
 	/* height: 100%; */
 	width: 50%;
+}
+
+@media screen and (max-width: 84.375em) {
+	.row .col-4:not(:last-child) {
+		margin-right: 14rem;
+	}
+}
+
+@media screen and (max-width: 65.625em) {
+	.row .col-4:not(:last-child) {
+		margin-right: 12rem;
+	}
+}
+
+@media screen and (max-width: 37.5em) {
+	.row .col-2 {
+		display: block;
+	}
 }

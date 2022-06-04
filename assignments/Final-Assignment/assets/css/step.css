@@ -1,10 +1,12 @@
 .mockup-image {
 	margin: 9.6rem 0 0 0;
+	float: left;
 }
 
 .steps__text {
 	margin: 10rem 0;
 	width: 49.6rem;
+	float: right;
 }
 
 .steps__text > p {
@@ -32,4 +34,88 @@ li > figure > img {
 .steps ul > li > div {
 	width: 40rem;
 	/* margin-top: 3.6rem; */
+}
+
+@media screen and (max-width: 84.375em) {
+	.mockup-image {
+		width: 35rem;
+		margin-left: -12rem;
+	}
+
+	.steps__text {
+		width: 49.6rem;
+		padding-left: 10rem !important;
+	}
+
+	.steps ul > li {
+		width: 49.6rem;
+	}
+
+	.steps ul > li > div {
+		width: 30.5rem;
+	}
+}
+
+@media screen and (max-width: 65.625em) {
+	.mockup-image {
+		width: 15rem !important;
+		transform: translateX(-5rem);
+	}
+
+	.steps__text {
+		width: 49.6rem;
+		transform: translateX(5rem);
+	}
+
+	.steps ul > li {
+		width: 40rem;
+	}
+
+	.steps ul > li > div {
+		width: 30rem;
+	}
+}
+
+@media screen and (max-width: 56.25em) {
+	.mockup-image,
+	.steps__text {
+		clear: both;
+		width: 100%;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+	.mockup-image > img {
+		width: 60rem !important;
+	}
+
+	.steps__text {
+		text-align: center;
+		transform: translateX(-0.3rem);
+	}
+
+	.steps > ul {
+		width: 100%;
+	}
+
+	.steps > ul > li {
+		margin: 4rem auto;
+		text-align: left;
+		margin: 2rem auto !important;
+	}
+}
+
+@media screen and (max-width: 37.5em) {
+	.mockup-image > img {
+		width: 30rem !important;
+		transform: translateX(40%);
+	}
+
+	.mockup-image {
+		width: 100%;
+	}
+
+	.steps__text {
+		padding: 4px;
+	}
 }

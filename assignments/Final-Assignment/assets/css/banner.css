@@ -1,8 +1,11 @@
 .section__banner {
-	height: 69.4rem;
+	height: 58rem;
 	width: 100%;
 	position: relative;
-	padding-top: 9.3rem;
+	padding-top: 4rem;
+	background-image: url("../images/Pattern.png");
+	background-size: cover;
+	background-position: bottom right;
 }
 
 .p-relative {
@@ -12,7 +15,7 @@
 
 .point-lg {
 	position: absolute;
-	top: 7.1rem;
+	top: -6rem;
 	left: -2rem;
 }
 
@@ -22,16 +25,17 @@
 	left: 40%;
 }
 
-.bg-image {
+/* .bg-image {
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	z-index: -10;
+	min-width: 1480px;
 }
 
 .bg-image > img {
 	width: 99.1vw;
-}
+} */
 
 .banner__text {
 	position: absolute;
@@ -43,8 +47,8 @@
 
 .banner__image {
 	position: absolute;
-	top: 0;
-	right: -10rem;
+	top: 1rem;
+	right: -8rem;
 	z-index: -100;
 }
 
@@ -73,4 +77,22 @@
 .banner__buttons .btn-primary > img {
 	/* transform: translateY(4px); */
 	width: 14px;
+}
+
+@media screen and (max-width: 65.625em) {
+	.banner__image img {
+		width: 45rem !important;
+		margin-top: 3rem;
+	}
+}
+
+@media screen and (max-width: 53.125em) {
+	.banner__image {
+		display: none;
+		width: 0;
+	}
+
+	.banner__text {
+		width: 100%;
+	}
 }

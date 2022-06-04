@@ -57,6 +57,12 @@
 						<a href="#" class="btn btn-primary sign-up">Sign Up</a>
 					</div>
 				</nav>
+				<div class="hamburger">
+					<img
+						src="./assets/images/icons/hamburger-menu.png"
+						alt="hamburger menu"
+					/>
+				</div>
 			</div>
 		</header>
 		<main>
@@ -107,12 +113,12 @@
 						alt="background image"
 					/>
 				</div>
-				<div class="bg-image">
+				<!-- <div class="bg-image">
 					<img
 						src="./assets/images/Pattern.png"
 						alt="background image"
 					/>
-				</div>
+				</div> -->
 			</section>
 			<section class="section__choice">
 				<div class="container">
@@ -127,12 +133,13 @@
 					<div class="option">
 						<ul>
 							<li class="option__card">
-								<figure class="card__figure">
+								<div class="card__image">
 									<img
-										src="./assets/images/icons/Reasons1.svg"
-										alt="Purchase One Touch"
+										src="./assets/images/icons/reason1.svg"
+										alt="Purchase icon"
+										class="img1"
 									/>
-								</figure>
+								</div>
 								<div class="card__text">
 									<h3 class="heading-tertiary">
 										Purchase One Touch
@@ -145,12 +152,13 @@
 								</div>
 							</li>
 							<li class="option__card">
-								<figure class="card__figure">
+								<div class="card__image">
 									<img
-										src="./assets/images/icons/Reasons2.svg"
-										alt="Purchase One Touch"
+										src="./assets/images/icons/reason2.svg"
+										alt="Free Transaction icon"
+										class="img2"
 									/>
-								</figure>
+								</div>
 								<div class="card__text">
 									<h3 class="heading-tertiary">
 										Free Transactions
@@ -163,12 +171,13 @@
 								</div>
 							</li>
 							<li class="option__card">
-								<figure class="card__figure">
+								<div class="card__image">
 									<img
-										src="./assets/images/icons/Reasons3.svg"
-										alt="Purchase One Touch"
+										src="./assets/images/icons/reasone.svg"
+										alt="Free Transaction icon"
+										class="img3"
 									/>
-								</figure>
+								</div>
 								<div class="card__text">
 									<h3 class="heading-tertiary">
 										Private and secure
@@ -182,88 +191,88 @@
 							</li>
 						</ul>
 					</div>
+					<!-- <div class="choice__background-image">
+						<img
+							src="./assets/images/icons/curve.svg"
+							alt="background curve"
+						/>
+					</div> -->
 				</div>
 			</section>
-			<section class="section__steps clearfix">
+			<section class="section__steps">
 				<div class="container clearfix">
-					<div class="float-left">
-						<figure class="mockup-image">
-							<img
-								src="./assets/images/step.png"
-								alt="Mockup image"
-							/>
-						</figure>
-					</div>
-					<div class="float-right">
-						<div class="steps__text">
-							<h2 class="heading-secondary">
-								Start Now With 3 Steps
-							</h2>
-							<p>
-								Besome a Peyme customer in the easiest way just
-								simple, fast and accurate steps. It won't take
-								your time to experience
-							</p>
-							<div class="steps">
-								<ul>
-									<li class="clearfix">
-										<figure class="float-left">
-											<img
-												src="./assets/images/icons/profile.svg"
-												alt="Profile icon"
-											/>
-										</figure>
-										<div class="float-left">
-											<h3 class="heading-tertiary">
-												Step 1:Create Your Account
-											</h3>
-											<p>
-												Signing up for your own Peyme
-												account is easy and free. Just
-												connection with phone or gmail
-												instandly
-											</p>
-										</div>
-									</li>
-									<li class="clearfix">
-										<figure class="float-left">
-											<img
-												src="./assets/images/icons/link.svg"
-												alt="Profile icon"
-											/>
-										</figure>
-										<div class="float-left">
-											<h3 class="heading-tertiary">
-												Step 2: Link Your Cards
-											</h3>
-											<p>
-												Link your preferred credit,
-												debit or prepaid cards to your
-												Payme account.
-											</p>
-										</div>
-									</li>
-									<li class="clearfix">
-										<figure class="float-left">
-											<img
-												src="./assets/images/icons/done.svg"
-												alt="Profile icon"
-											/>
-										</figure>
-										<div class="float-left">
-											<h3 class="heading-tertiary">
-												Step 3: All Done
-											</h3>
-											<p>
-												Thats all done. Now you can
-												explore any apps, any webs that
-												are ours partnets to transfer
-												with them
-											</p>
-										</div>
-									</li>
-								</ul>
-							</div>
+					<figure class="mockup-image">
+						<img
+							src="./assets/images/step.png"
+							alt="Mockup image"
+						/>
+					</figure>
+					<div class="steps__text">
+						<h2 class="heading-secondary">
+							Start Now With 3 Steps
+						</h2>
+						<p>
+							Besome a Peyme customer in the easiest way just
+							simple, fast and accurate steps. It won't take your
+							time to experience
+						</p>
+						<div class="steps">
+							<ul>
+								<li class="clearfix">
+									<figure class="float-left">
+										<img
+											src="./assets/images/icons/profile.svg"
+											alt="Profile icon"
+										/>
+									</figure>
+									<div class="float-left">
+										<h3 class="heading-tertiary">
+											Step 1:Create Your Account
+										</h3>
+										<p>
+											Signing up for your own Peyme
+											account is easy and free. Just
+											connection with phone or gmail
+											instandly
+										</p>
+									</div>
+								</li>
+								<li class="clearfix">
+									<figure class="float-left">
+										<img
+											src="./assets/images/icons/link.svg"
+											alt="Profile icon"
+										/>
+									</figure>
+									<div class="float-left">
+										<h3 class="heading-tertiary">
+											Step 2: Link Your Cards
+										</h3>
+										<p>
+											Link your preferred credit, debit or
+											prepaid cards to your Payme account.
+										</p>
+									</div>
+								</li>
+								<li class="clearfix">
+									<figure class="float-left">
+										<img
+											src="./assets/images/icons/done.svg"
+											alt="Profile icon"
+										/>
+									</figure>
+									<div class="float-left">
+										<h3 class="heading-tertiary">
+											Step 3: All Done
+										</h3>
+										<p>
+											Thats all done. Now you can explore
+											any apps, any webs that are ours
+											partnets to transfer with them
+										</p>
+									</div>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -366,15 +375,23 @@
 						</div>
 					</div>
 				</div>
-				<figure class="background-image">
+				<!-- <figure class="background-image">
 					<img
 						src="./assets/images/curve-line.svg"
 						alt="background image"
 					/>
-				</figure>
+				</figure> -->
 			</section>
 			<section class="section__use">
 				<div class="container clearfix">
+					<div class="float-right use__image">
+						<figure>
+							<img
+								src="./assets/images/Mockup.png"
+								alt="Use mobile image"
+							/>
+						</figure>
+					</div>
 					<div class="float-left use__text">
 						<h1 class="heading-primary">Use Peyme In Mobile</h1>
 						<p>
@@ -384,38 +401,31 @@
 							world easy to life
 						</p>
 						<div class="use__buttons clearfix">
-							<div class="float-left">
-								<a href="#" class="btn btn-tertiary">
-									<div class="use-icons">
-										<img
-											src="./assets/images/icons/apple.svg"
-											alt="apple icon"
-										/>
-									</div>
-									Apple Store</a
-								>
-							</div>
-							<div class="float-left">
-								<a href="#" class="btn btn-primary">
-									<div class="use-icons">
-										<img
-											src="./assets/images/icons/google-play.svg"
-											alt="google play icon"
-										/>
-									</div>
-									Google Play</a
-								>
+							<div class="buttons">
+								<div class="button">
+									<a href="#" class="btn btn-tertiary">
+										<div class="use-icons">
+											<img
+												src="./assets/images/icons/apple.svg"
+												alt="apple icon"
+											/>
+										</div>
+										Apple Store</a
+									>
+								</div>
+								<div class="button">
+									<a href="#" class="btn btn-primary">
+										<div class="use-icons">
+											<img
+												src="./assets/images/icons/google-play.svg"
+												alt="google play icon"
+											/>
+										</div>
+										Google Play</a
+									>
+								</div>
 							</div>
 						</div>
-					</div>
-
-					<div class="float-right use__image">
-						<figure>
-							<img
-								src="./assets/images/Mockup.png"
-								alt="Use mobile image"
-							/>
-						</figure>
 					</div>
 				</div>
 			</section>

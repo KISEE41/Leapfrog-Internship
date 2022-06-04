@@ -1,9 +1,22 @@
 .section__features {
 	padding: 6rem 2.8rem;
-	position: relative;
+	/* position: relative; */
 }
 
-.section__features .background-image {
+.section__features > .container {
+	background-image: url("../images/curve-line.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 120px 5px;
+}
+
+@media screen and (max-width: 62.5em) {
+	.section__features > .container {
+		background-position: -250px 95px;
+	}
+}
+
+/* .section__features .background-image {
 	position: absolute;
 	top: 16rem;
 	left: 29%;
@@ -13,11 +26,12 @@
 .section__features .background-image > img {
 	width: 78.5rem;
 	height: 55.2rem;
-}
+} */
 
 .features__text {
 	width: 60rem;
 	margin: 0 auto;
+	background-color: white;
 }
 
 .features__text p {
@@ -67,4 +81,32 @@
 	font-size: 16px;
 	line-height: 24px;
 	margin-top: 2.4rem;
+}
+
+@media screen and (max-width: 37.5em) {
+	.features__grid > .row > .float-left,
+	.features__grid > .row > .float-right {
+		display: block;
+	}
+
+	.features__text {
+		width: 40rem;
+	}
+
+	.features__text p {
+		margin-top: 1.6rem;
+		padding: 4px;
+	}
+
+	.card .float-left {
+		display: block;
+		width: 100%;
+	}
+
+	.card {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 28.75em) {
 }

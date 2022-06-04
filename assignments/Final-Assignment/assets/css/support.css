@@ -1,5 +1,6 @@
 .section__support {
 	height: 52.8rem;
+	margin-bottom: 3rem;
 }
 
 .section__support .container {
@@ -32,7 +33,7 @@
 
 .support__text {
 	position: absolute;
-	top: 14.8rem;
+	top: 11rem;
 	right: 17rem;
 	width: 39.2rem;
 }
@@ -43,4 +44,75 @@
 
 .support__text p {
 	margin-bottom: 3.6rem;
+}
+
+@media screen and (max-width: 84.375em) {
+	.support__text {
+		top: 13rem;
+		right: 5rem;
+		width: 39.2rem;
+	}
+
+	.support__image {
+		left: 10rem;
+	}
+}
+
+@media screen and (max-width: 65.625em) {
+	.section__support {
+		margin-bottom: 10rem;
+	}
+
+	.support__text {
+		right: 0;
+		width: 36rem;
+	}
+
+	.support__image {
+		left: -3rem;
+	}
+}
+
+@media screen and (max-width: 56.25em) {
+	.section__support {
+		margin-bottom: 20rem;
+	}
+
+	.section__support > .container {
+		text-align: center;
+	}
+
+	.support__text {
+		margin: 0 auto;
+	}
+
+	.support__text {
+		position: static;
+		display: block;
+		width: 36rem;
+	}
+
+	.support__image {
+		position: static;
+		display: block;
+		margin-bottom: 10rem !important;
+	}
+
+	.support__image > img {
+		width: 25rem;
+	}
+
+	.arrow-lg,
+	.arrow-md,
+	.arrow-sm {
+		z-index: -100;
+	}
+}
+
+@media screen and (max-width: 37.5em) {
+	.arrow-lg,
+	.arrow-md,
+	.arrow-sm {
+		display: none;
+	}
 }

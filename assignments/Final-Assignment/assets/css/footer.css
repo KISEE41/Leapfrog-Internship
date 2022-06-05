@@ -86,3 +86,9 @@ footer .btn {
 		width: 100%;
 	}
 }
+
+@media screen and (max-width: 26.25em) {
+	.footer__icons li:not(:last-child) {
+		margin-right: 3rem;
+	}
+}

@@ -20,46 +20,6 @@ nav > ul > li:not(:last-child) {
 	margin-right: 4.8rem;
 }
 
-@media screen and (max-width: 384px) {
-	.logo {
-		text-align: center;
-		width: 100%;
-	}
-
-	nav {
-		width: 100%;
-		float: none;
-	}
-
-	nav > ul {
-		text-align: center;
-	}
-
-	nav > ul > li {
-		display: block;
-	}
-}
-
-@media screen and (max-width: 720px) {
-	.header-section {
-		height: 11.4rem;
-		padding: 2rem 1.6rem;
-	}
-
-	.logo > a {
-		font-size: 1.5rem;
-	}
-
-	nav > ul > li {
-		display: inline-block;
-		font-size: 1rem;
-	}
-
-	nav > ul > li:not(:last-child) {
-		margin-right: 3rem;
-	}
-}
-
 .first-section-text {
 	margin: 7rem 0;
 	max-width: 50rem;

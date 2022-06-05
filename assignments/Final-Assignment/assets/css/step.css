@@ -130,6 +130,10 @@ li > figure > img {
 		width: 0;
 	}
 
+	.steps > ul {
+		transform: translateX(8%);
+	}
+
 	.steps ul > li {
 		text-align: center;
 		width: 100%;

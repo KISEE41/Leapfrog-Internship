@@ -28,12 +28,6 @@ html {
 	font-size: 62.5%; /*1rem=10px; 10/16=62.5%*/
 }
 
-@media screen and (max-width: 720px) {
-	html {
-		font-size: 20%;
-	}
-}
-
 body {
 	box-sizing: border-box;
 	color: var(--color-primary);

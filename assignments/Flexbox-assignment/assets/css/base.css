@@ -1,0 +1,23 @@
+/* :root {
+
+} */
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%; /*1rem=10px; 10/16=62.5%*/
+}
+
+body {
+	box-sizing: border-box;
+	color: var(--color-primary);
+	font-family: "Poppins", sans-serif;
+	line-height: 1.7;
+	font-weight: 600;
+}

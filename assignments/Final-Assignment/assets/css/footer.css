@@ -31,7 +31,7 @@ footer .btn {
 }
 
 .footer__copyright {
-	margin-top: 7.2rem;
+	padding-top: 7.2rem;
 }
 
 .footer__copyright__text > * {
@@ -56,9 +56,10 @@ footer .btn {
 .copyright-text > p {
 	font-weight: 600;
 	font-size: 16px;
-	line-height: 1.7;
+	line-height: 1.5;
 	margin: 0;
 	padding: 0;
+	transform: translateY(-2px);
 }
 
 .footer__icons li {

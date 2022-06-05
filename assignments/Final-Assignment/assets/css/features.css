@@ -90,7 +90,7 @@
 	}
 
 	.features__text {
-		width: 40rem;
+		width: 35rem;
 	}
 
 	.features__text p {
@@ -106,7 +106,4 @@
 	.card {
 		text-align: center;
 	}
-}
-
-@media screen and (max-width: 28.75em) {
 }

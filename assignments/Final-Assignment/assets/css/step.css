@@ -99,7 +99,7 @@ li > figure > img {
 	}
 
 	.steps > ul > li {
-		margin: 4rem auto;
+		width: 100%;
 		text-align: left;
 		margin: 2rem auto !important;
 	}
@@ -108,7 +108,7 @@ li > figure > img {
 @media screen and (max-width: 37.5em) {
 	.mockup-image > img {
 		width: 30rem !important;
-		transform: translateX(40%);
+		transform: translateX(30%);
 	}
 
 	.mockup-image {
@@ -117,5 +117,21 @@ li > figure > img {
 
 	.steps__text {
 		padding: 4px;
+	}
+
+	.steps ul > li {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 25em) {
+	.steps ul > li > figure {
+		display: none;
+		width: 0;
+	}
+
+	.steps ul > li {
+		text-align: center;
+		width: 100%;
 	}
 }

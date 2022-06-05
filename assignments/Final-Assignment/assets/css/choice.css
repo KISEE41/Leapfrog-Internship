@@ -107,3 +107,9 @@
 		width: 40rem;
 	}
 }
+
+@media screen and (max-width: 25em) {
+	.choice__text {
+		width: 30rem;
+	}
+}

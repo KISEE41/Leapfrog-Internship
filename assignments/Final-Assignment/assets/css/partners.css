@@ -101,3 +101,9 @@
 		overflow: hidden;
 	}
 } */
+
+@media screen and (max-width: 26.25em) {
+	.partners__text {
+		width: 35rem;
+	}
+}

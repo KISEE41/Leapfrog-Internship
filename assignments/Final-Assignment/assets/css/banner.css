@@ -17,12 +17,14 @@
 	position: absolute;
 	top: -6rem;
 	left: -2rem;
+	z-index: -100;
 }
 
 .point-sm {
 	position: absolute;
 	top: 350px;
 	left: 40%;
+	z-index: -100;
 }
 
 /* .bg-image {
@@ -48,7 +50,7 @@
 .banner__image {
 	position: absolute;
 	top: 1rem;
-	right: -8rem;
+	right: -4rem;
 	z-index: -100;
 }
 
@@ -87,6 +89,10 @@
 }
 
 @media screen and (max-width: 53.125em) {
+	.section__banner {
+		padding-top: 0 !important;
+	}
+
 	.banner__image {
 		display: none;
 		width: 0;

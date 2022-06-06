@@ -1,0 +1,84 @@
+.section__say {
+	margin-top: 16rem;
+}
+
+.say__flexbox {
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+}
+
+.say__text h2.secondary-heading {
+	width: 45.5rem;
+	margin-top: 2.5rem;
+}
+
+.say__text p {
+	width: 57.3rem;
+	margin-top: 2.6rem;
+}
+
+.say__text .btn {
+	margin-top: 4.3rem !important;
+	display: flex;
+	width: 40.3rem;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	justify-content: right;
+}
+
+.btn-arrow {
+	margin-left: 2.6rem;
+}
+
+.say__figure {
+	position: relative;
+	margin-left: 33rem;
+}
+
+.right-arrow {
+	position: absolute;
+	top: 50%;
+	right: -11.5rem;
+	transform: translateY(-50%);
+}
+
+.say__figure .card {
+	position: absolute;
+	top: 36.2rem;
+	right: -18rem;
+	background: #ffffff;
+	width: 68rem;
+	height: 32.9rem;
+	box-shadow: 2px 4px 60px rgba(41, 44, 124, 0.1);
+	border-radius: 20px;
+	border-left: 20px solid #f77766;
+	padding: 4.1rem;
+}
+
+.say__figure .card > p {
+	width: 53.4rem;
+	text-align: left;
+	padding-left: 3.2rem;
+	border-left: 1px solid #bdbdd1;
+}
+
+.name-review {
+	padding-left: 3.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.review > ul {
+	display: flex;
+	margin-top: 3.1rem;
+	padding-left: 3.8rem !important;
+}
+
+.review-total {
+	font-weight: 600 !important;
+	font-size: 18px !important;
+	line-height: 180% !important;
+	margin: 0 !important;
+}

@@ -99,3 +99,8 @@
 	line-height: 33px;
 	color: #b2b3cf;
 }
+
+.conditions > ul > li:hover {
+	color: var(--color-tertiary);
+	transition: 0.2s ease;
+}

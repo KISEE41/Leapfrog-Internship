@@ -1,0 +1,104 @@
+.header {
+	background-image: url("../images/header-plain-background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 113.68rem;
+	border-bottom: 50%;
+	overflow: hidden;
+}
+
+.header__flexbox {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 6rem;
+	height: 83px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar {
+	font-weight: 400;
+	font-size: 2.2rem;
+	line-height: 3.3rem;
+}
+
+.nav__menu {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__menu > li {
+	margin: 1.5rem 8rem 0 0;
+}
+
+.nav__buttons .btn {
+	width: 16rem;
+	padding-top: 1.4rem;
+}
+
+.nav__buttons a {
+	height: 6rem;
+}
+
+.nav__buttons .btn-primary {
+	margin-right: 3.4rem;
+}
+
+.nav__menu li:hover {
+	color: var(--color-tertiary);
+	transition: 0.1s ease-in;
+}
+
+/* Banner Section */
+.section__banner {
+	display: flex;
+	justify-content: space-between;
+	align-items: top;
+}
+
+.banner__text {
+	margin-top: 25.2rem;
+}
+
+.banner__text p {
+	margin-top: 3.4rem;
+	width: 52.3rem;
+}
+
+.banner__buttons {
+	margin-top: 5.2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.banner__buttons .btn {
+	padding-top: 2.2rem;
+	height: 8rem;
+	width: 22rem;
+	margin-right: 4rem;
+}
+
+.play-icon {
+	width: 14rem;
+	transform: translateY(2.8rem);
+}
+
+.play-btn {
+	display: flex;
+	align-items: center;
+	margin-top: -3rem;
+}
+
+.play-btn a:hover p {
+	color: var(--color-tertiary);
+}
+
+.banner__image {
+	margin-left: -5rem;
+}

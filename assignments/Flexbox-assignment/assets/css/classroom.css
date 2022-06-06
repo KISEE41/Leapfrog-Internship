@@ -1,0 +1,34 @@
+.section__classroom {
+	margin-top: 15.3rem;
+	background-image: url("../images/Ellipse-lg.svg");
+	background-repeat: no-repeat;
+	background-size: 4%, 4%;
+	background-position: 14.5rem 4.5rem;
+}
+
+.classroom__flexbox {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.classroom__text {
+	width: 73rem;
+}
+
+.classroom__text h2.secondary-heading {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 160%;
+}
+
+.classroom__text p {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 180%;
+	margin-top: 3rem;
+	background-image: url("../images/Ellipse-sm.svg");
+	background-repeat: no-repeat;
+	background-size: 4%, 4%;
+	background-position: 70rem 8rem;
+}

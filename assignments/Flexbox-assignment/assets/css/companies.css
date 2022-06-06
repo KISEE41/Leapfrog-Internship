@@ -1,0 +1,12 @@
+.section__companies {
+	margin-top: 8.1rem;
+	text-align: center;
+}
+
+.companies__logo {
+	margin: 3.2rem auto;
+	width: 133.7rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}

@@ -1,0 +1,24 @@
+.section__management {
+	margin-top: 16rem;
+}
+
+.management__flexbox {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.management__text h2.secondary-heading {
+	width: 42rem;
+	font-weight: 600;
+	font-size: 4rem;
+	line-height: 160%;
+}
+
+.management__text p {
+	width: 64.5rem;
+	margin-top: 2rem;
+	font-weight: 400;
+	font-size: 2.2rem;
+	line-height: 180%;
+}

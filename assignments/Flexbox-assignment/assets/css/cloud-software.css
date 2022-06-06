@@ -1,0 +1,43 @@
+.section__cloud {
+	margin-top: 13rem;
+}
+
+.cloud__text {
+	width: 83.7rem;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.cloud__text > p {
+	margin-top: 2rem;
+}
+
+.card {
+	width: 45rem;
+	background: #ffffff;
+	box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+	border-radius: 20px;
+	text-align: center;
+	padding: 12.6rem 6.4rem 4.6rem 4.5rem;
+	position: relative;
+	margin-top: 16rem;
+}
+
+.card__image {
+	position: absolute;
+	top: -50%;
+	left: 50%;
+	transform: translate(-50%, 75%);
+}
+
+.card p {
+	margin-top: 2.4rem;
+	font-weight: 400;
+	font-size: 2rem;
+	line-height: 180%;
+}
+
+.card__container {
+	display: flex;
+	justify-content: space-evenly;
+}

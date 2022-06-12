@@ -39,11 +39,6 @@ ul li {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .assignments__container {
     margin: 5rem auto;
     width: 90%;
@@ -63,6 +58,7 @@ a {
     padding: 2rem;
     font-size: 2rem;
     font-weight: 500;
+    transition: 0.3s ease-in-out;
 }
 
 .assignment__item:hover {
@@ -96,6 +92,12 @@ a {
 .item__demo {
     float: right;
     margin: 0 2rem;
+}
+
+.assignment__item a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.2s ease-in-out;
 }
 
 .assignment__item a:hover {

@@ -1,0 +1,1 @@
+const number_of_balls = 100;

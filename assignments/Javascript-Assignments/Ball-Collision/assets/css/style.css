@@ -17,13 +17,13 @@ html {
 
 @media screen and (min-width: 37.5em) {
     html {
-        font-size: 50%;
+        font-size: 62.5%;
     }
 }
 
 @media screen and (min-width: 56.25em) {
     html {
-        font-size: 56.25%;
+        font-size: 62.5%;
     }
 }
 
@@ -37,4 +37,8 @@ body {
     box-sizing: border-box;
     overflow: hidden;
     background-color: "#f3eded";
+}
+
+#container {
+    overflow: hidden;
 }

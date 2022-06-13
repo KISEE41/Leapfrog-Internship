@@ -22,12 +22,12 @@ function isOverlapped(x1, y1, r1, x2, y2, r2) {
 
 const isCollided = isOverlapped;
 
-function isCollidedWithWall(x, y, radius, vx, vy) {
-    if (x + 2 * radius >= window.innerWidth || x <= 0.5) {
+function isCollidedWithWall(x, y, radius, vx, vy, containerWidth, containerHeight) {
+    if (x + 2 * radius >= containerWidth || x <= 0.5) {
         vx *= -1;
     }
 
-    if (y + 2 * radius >= window.innerHeight || y <= 0.5) {
+    if (y + 2 * radius >= containerHeight || y <= 0.5) {
         vy *= -1;
     }
 

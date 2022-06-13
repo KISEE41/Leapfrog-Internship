@@ -6,16 +6,16 @@ document.body.appendChild(container);
 let containerWidth = window.innerWidth;
 let containerHeight = window.innerHeight;
 
-container.style.height = `${toRem(containerHeight)}`;
-container.style.width = `${toRem(containerWidth)}`;
-container.style.position = "relative";
-
 window.addEventListener("resize", () => {
     containerWidth = window.innerWidth;
     containerHeight = window.innerHeight;
-    container.style.height = `${toRem(containerHeight)}`;
-    container.style.width = `${toRem(containerWidth)}`;
+    container.style.height = `${containerHeight}px`;
+    container.style.width = `${containerWidth}px`;
 });
+
+container.style.height = `${containerHeight}px`;
+container.style.width = `${containerWidth}px`;
+container.style.position = "relative";
 
 class Ball {
     constructor(x, y, radius) {
@@ -55,7 +55,7 @@ class Ball {
             }
         }
 
-        [this.velocity.vx, this.velocity.vy] = isCollidedWithWall(this.x, this.y, this.radius, this.velocity.vx, this.velocity.vy);
+        [this.velocity.vx, this.velocity.vy] = isCollidedWithWall(this.x, this.y, this.radius, this.velocity.vx, this.velocity.vy, containerWidth, containerHeight);
 
         this.velocity.vy += gravity;
 

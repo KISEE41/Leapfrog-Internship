@@ -57,6 +57,8 @@ class Ball {
 
         [this.velocity.vx, this.velocity.vy] = isCollidedWithWall(this.x, this.y, this.radius, this.velocity.vx, this.velocity.vy);
 
+        this.velocity.vy += gravity;
+
         this.x += this.velocity.vx;
         this.y += this.velocity.vy;
         this.mover(this.x, this.y);

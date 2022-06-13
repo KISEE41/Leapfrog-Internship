@@ -9,7 +9,7 @@ html {
     font-size: 62.5%;
 }
 
-@media screen and (min-width: 18.75em) {
+/* @media screen and (min-width: 18.75em) {
     html {
         font-size: 43.75%;
     }
@@ -31,7 +31,7 @@ html {
     html {
         font-size: 62.5%;
     }
-}
+} */
 
 body {
     box-sizing: border-box;

@@ -1,0 +1,111 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 124rem;
+    margin: 0 auto;
+}
+
+.carousel-container {
+    margin: 10rem auto;
+    height: 42rem;
+    width: 61rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-image-wrapper {
+    height: 42rem;
+    position: relative;
+}
+
+.carousel-image-wrapper img {
+    height: 42rem;
+    width: 61rem;
+    position: absolute;
+    top: 0;
+    /* transition: 0.5s ease; */
+}
+
+.arrow-left {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+    background: url(../images/arrow-left.png) center center no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.arrow-left:hover {
+    background-image: url(../images/arrow-left-hover.png);
+    opacity: 0.8;
+    opacity: 0.8;
+    transform: translateY(-50%) scale(1.3);
+}
+
+.arrow-right {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    background: url(../images/arrow-right.png) center center no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.arrow-right:hover {
+    background-image: url(../images/arrow-right-hover.png);
+    opacity: 0.8;
+    transform: translateY(-50%) scale(1.3);
+}
+
+.dot-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+
+.dot-container>div {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.6;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.dot-container>div:hover {
+    opacity: 0.9;
+    margin: 0 7px;
+    transform: translateY(-50%) scale(1.2);
+}
+
+.active {
+    opacity: 1 !important;
+    margin: 0 7px;
+    transform: translateY(-30%) scale(1.1) !important;
+    transition: 0.2s ease-in-out;
+}
